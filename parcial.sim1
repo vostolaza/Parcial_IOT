@@ -1,20 +1,20 @@
 <circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="Servo" CircId="Servo-3" mainComp="false" Show_id="true" Show_Val="false" Pos="952,716" rotation="0" hflip="1" vflip="1" label="Servo-3" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+<item itemtype="Servo" CircId="Servo-3" mainComp="false" Show_id="true" Show_Val="false" Pos="952,720" rotation="0" hflip="1" vflip="1" label="Servo-3" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 _sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
 
-<item itemtype="LDR" CircId="LDR-4" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,508" rotation="0" hflip="1" vflip="1" label="LDR-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="0.8 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+<item itemtype="LDR" CircId="LDR-4" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,508" rotation="0" hflip="1" vflip="1" label="LDR-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="99.3 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
 
-<item itemtype="LDR" CircId="LDR-6" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,620" rotation="0" hflip="1" vflip="1" label="LDR-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="0.8 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+<item itemtype="LDR" CircId="LDR-6" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,620" rotation="0" hflip="1" vflip="1" label="LDR-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="1e-12 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
 
-<item itemtype="LDR" CircId="LDR-9" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,560" rotation="0" hflip="1" vflip="1" label="LDR-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="0.7 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+<item itemtype="LDR" CircId="LDR-9" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="924,560" rotation="0" hflip="1" vflip="1" label="LDR-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="98.2 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
 
 <item itemtype="Subcircuit" CircId="Mega-12" mainComp="false" Show_id="true" Show_Val="false" Pos="704,408" rotation="0" hflip="1" vflip="1" label="Mega-12" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps itemtype="MCU" CircId="12_mega2560-63" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="12_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="Users/vostolaza/Library/Application Support/simulide/codeeditor/buildIno/build/iot.ino.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+<mainCompProps itemtype="MCU" CircId="12_mega2560-63" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="12_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="iot.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
 </item>
 
 <item itemtype="KeyPad" CircId="KeyPad-32" mainComp="false" Show_id="false" Show_Val="false" Pos="748,360" rotation="0" hflip="1" vflip="1" label="KeyPad-32" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Buttons" Cols="2 _Buttons" Key_Labels="123456789*0#" />
 
-<item itemtype="LDR" CircId="LDR-52" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="912,416" rotation="90" hflip="1" vflip="1" label="LDR-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29.6161" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="23.8 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
+<item itemtype="LDR" CircId="LDR-52" mainComp="false" ShowProp="Lux" Show_id="false" Show_Val="true" Pos="912,416" rotation="90" hflip="1" vflip="1" label="LDR-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,29" valLabRot="0" Min_Lux="1e-12 Lux" Max_Lux="100 Lux" Lux="100 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" />
 
 <item itemtype="Node" CircId="Node-19" mainComp="false" Pos="964,652" />
 
@@ -22,44 +22,44 @@
 
 <item itemtype="Node" CircId="Node-28" mainComp="false" Pos="892,676" />
 
-<item itemtype="Node" CircId="Node-55" mainComp="false" Pos="856,616" />
+<item itemtype="Node" CircId="Node-60" mainComp="false" Pos="964,612" />
 
-<item itemtype="Connector" uid="Connector-14" startpinid="LDR-4-lPin" endpinid="Mega-12-A14" pointList="908,508,900,508,900,456,856,456" />
+<item itemtype="Connector" uid="connector-61" startpinid="LDR-4-lPin" endpinid="Mega-12-A14" pointList="908,508,900,508,900,456,856,456" />
 
-<item itemtype="Connector" uid="Connector-15" startpinid="LDR-9-lPin" endpinid="Mega-12-A13" pointList="908,560,892,560,892,464,856,464" />
+<item itemtype="Connector" uid="connector-62" startpinid="LDR-9-lPin" endpinid="Mega-12-A13" pointList="908,560,892,560,892,464,856,464" />
 
-<item itemtype="Connector" uid="Connector-16" startpinid="LDR-6-lPin" endpinid="Mega-12-A12" pointList="908,620,884,620,884,472,856,472" />
+<item itemtype="Connector" uid="connector-63" startpinid="LDR-6-lPin" endpinid="Mega-12-A12" pointList="908,620,884,620,884,472,856,472" />
 
-<item itemtype="Connector" uid="Connector-17" startpinid="Mega-12-5V00" endpinid="Node-55-0" pointList="856,616,856,616" />
+<item itemtype="Connector" uid="connector-64" startpinid="LDR-9-rPin" endpinid="Node-19-1" pointList="940,560,964,560,964,652" />
 
-<item itemtype="Connector" uid="Connector-18" startpinid="LDR-9-rPin" endpinid="Node-19-1" pointList="940,560,964,560,964,652" />
+<item itemtype="Connector" uid="connector-65" startpinid="Node-19-2" endpinid="Node-22-0" pointList="964,652,964,640" />
 
-<item itemtype="Connector" uid="Connector-20" startpinid="Node-19-2" endpinid="Node-22-0" pointList="964,652,964,640" />
+<item itemtype="Connector" uid="connector-66" startpinid="LDR-4-rPin" endpinid="Node-60-0" pointList="940,508,964,508,964,612" />
 
-<item itemtype="Connector" uid="Connector-21" startpinid="LDR-4-rPin" endpinid="Node-22-1" pointList="940,508,964,508,964,640" />
+<item itemtype="Connector" uid="connector-67" startpinid="Servo-3-in0" endpinid="Node-28-1" pointList="904,704,904,676,892,676" />
 
-<item itemtype="Connector" uid="Connector-27" startpinid="Servo-3-in0" endpinid="Node-28-1" pointList="904,700,904,676,892,676" />
+<item itemtype="Connector" uid="connector-68" startpinid="KeyPad-32-Pin2" endpinid="Mega-12-31" pointList="748,400,748,424,752,424" />
 
-<item itemtype="Connector" uid="Connector-31" startpinid="Servo-3-in2" endpinid="Mega-12-A0" pointList="904,732,868,732,868,576,856,576" />
+<item itemtype="Connector" uid="connector-69" startpinid="KeyPad-32-Pin3" endpinid="Mega-12-33" pointList="764,400,764,424,760,424" />
 
-<item itemtype="Connector" uid="Connector-33" startpinid="KeyPad-32-Pin2" endpinid="Mega-12-31" pointList="748,400,748,424,752,424" />
+<item itemtype="Connector" uid="connector-70" startpinid="KeyPad-32-Pin1" endpinid="Mega-12-37" pointList="780,384,780,424,776,424" />
 
-<item itemtype="Connector" uid="Connector-34" startpinid="KeyPad-32-Pin3" endpinid="Mega-12-33" pointList="764,400,764,424,760,424" />
+<item itemtype="Connector" uid="connector-71" startpinid="KeyPad-32-Pin0" endpinid="Mega-12-39" pointList="780,368,784,368,784,424" />
 
-<item itemtype="Connector" uid="Connector-35" startpinid="KeyPad-32-Pin1" endpinid="Mega-12-37" pointList="780,384,780,424,776,424" />
+<item itemtype="Connector" uid="connector-72" startpinid="Node-22-2" endpinid="LDR-6-rPin" pointList="964,640,964,620,940,620" />
 
-<item itemtype="Connector" uid="Connector-36" startpinid="KeyPad-32-Pin0" endpinid="Mega-12-39" pointList="780,368,784,368,784,424" />
+<item itemtype="Connector" uid="connector-73" startpinid="Servo-3-in1" endpinid="Mega-12-GND2" pointList="904,720,880,720,880,688,884,688,884,608,856,608" />
 
-<item itemtype="Connector" uid="Connector-23" startpinid="Node-22-2" endpinid="LDR-6-rPin" pointList="964,640,964,620,940,620" />
+<item itemtype="Connector" uid="connector-74" startpinid="Node-28-2" endpinid="Node-19-0" pointList="892,676,964,676,964,652" />
 
-<item itemtype="Connector" uid="Connector-30" startpinid="Servo-3-in1" endpinid="Mega-12-GND2" pointList="904,716,880,716,880,688,884,688,884,608,856,608" />
+<item itemtype="Connector" uid="connector-75" startpinid="LDR-52-rPin" endpinid="Mega-12-A15" pointList="912,432,912,448,856,448" />
 
-<item itemtype="Connector" uid="Connector-29" startpinid="Node-28-2" endpinid="Node-19-0" pointList="892,676,964,676,964,652" />
+<item itemtype="Connector" uid="connector-76" startpinid="Mega-12-5V00" endpinid="Node-28-0" pointList="856,616,876,616,876,676,892,676" />
 
-<item itemtype="Connector" uid="Connector-53" startpinid="LDR-52-rPin" endpinid="Mega-12-A15" pointList="912,432,912,448,856,448" />
+<item itemtype="Connector" uid="connector-77" startpinid="LDR-52-lPin" endpinid="Node-60-1" pointList="912,400,964,400,964,612" />
 
-<item itemtype="Connector" uid="Connector-54" startpinid="LDR-52-lPin" endpinid="Node-55-1" pointList="912,400,980,400,980,664,856,664,856,616" />
+<item itemtype="Connector" uid="connector-78" startpinid="Node-60-2" endpinid="Node-22-1" pointList="964,612,964,640" />
 
-<item itemtype="Connector" uid="Connector-56" startpinid="Node-55-2" endpinid="Node-28-0" pointList="856,616,876,616,876,676,892,676" />
+<item itemtype="Connector" uid="Connector-80" startpinid="Servo-3-in2" endpinid="Mega-12-2" pointList="904,736,712,736,712,544" />
 
 </circuit>

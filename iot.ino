@@ -1,4 +1,5 @@
 #include <Keypad.h>
+#include <Servo.h>
 
 // Declaramos los pins de los LDRs
 int LDR1 = A15;
@@ -6,9 +7,8 @@ int LDR2 = A14;
 int LDR3 = A13;
 int LDR4 = A12;
 
-// Declaramos el pin del servo
-int servo = A0;
-
+// Declaramos el servo
+Servo servo;
 
 // Declaramos las entradas del teclado
 const byte ROWS = 2;
@@ -33,7 +33,7 @@ void setup() {
     pinMode(LDR2, INPUT);
     pinMode(LDR3, INPUT);
     pinMode(LDR4, INPUT);
-    pinMode(servo, OUTPUT);
+    servo.attach(2);
 }
 
 void loop() {
@@ -55,8 +55,8 @@ void loop() {
     float avg = (ldr1 + ldr2 + ldr3 + ldr4) / 4.0;
 
     // En caso el promedio sea > a 60, encendemos el servo
-    if (avg <= 60) {
-        digitalWrite(servo, 255);
+    if (avg >= 60) {
+        servo.write(180);
     }
 
     // Leemos el valor del keypad
